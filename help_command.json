@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "command": "add",
+      "description": "Add a new task to the list.",
+      "usage": "add \"Task Name\" --due YYYY-MM-DD --priority [low|medium|high]"
+    },
+    {
+      "command": "list",
+      "description": "Display all existing tasks.",
+      "usage": "list [--filter completed|pending]"
+    },
+    {
+      "command": "update",
+      "description": "Update task details.",
+      "usage": "update [task_id] --name \"New Name\" --due YYYY-MM-DD --priority [low|medium|high]"
+    },
+    {
+      "command": "delete",
+      "description": "Remove a task from the list.",
+      "usage": "delete [task_id]"
+    },
+    {
+      "command": "complete",
+      "description": "Mark a task as completed.",
+      "usage": "complete [task_id]"
+    },
+    {
+      "command": "help",
+      "description": "Display the list of commands or detailed instructions.",
+      "usage": "help [command]"
+    }
+  ]
+}
