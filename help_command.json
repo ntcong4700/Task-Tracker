@@ -3,7 +3,7 @@
     {
       "command": "add",
       "description": "Add a new task to the list.",
-      "usage": "add \"Task Name\" --due YYYY-MM-DD --priority [low|medium|high]"
+      "usage": "add \"Task Name\""
     },
     {
       "command": "list",
@@ -13,7 +13,7 @@
     {
       "command": "update",
       "description": "Update task details.",
-      "usage": "update [task_id] --name \"New Name\" --due YYYY-MM-DD --priority [low|medium|high]"
+      "usage": "update [task_id] --name \"New Name\""
     },
     {
       "command": "delete",
